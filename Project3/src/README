@@ -1,0 +1,54 @@
+Paulina Zhang; zhan7856
+
+Compiling & Running Program:
+    - literally just click the green buttons in ArrayListTest.java & LinkedListTest.java ?
+
+Assumptions:
+    - N/A
+
+Additional Feature:
+    - none lol why even ask
+
+Known Bugs / Defects
+    - N/A
+
+Analysis:
+
+Method: get(int index) --
+ArrayList -- O(1)
+LinkedList -- O(n)
+Explanation:
+The ArrayList would be more efficient for the get(int index) method, as it has a significantly faster runtime with a BigO
+of O(1) compared to the LinkedList's O(n). For the LinkedList, we have to loop through the elements and increment an index variable while
+in ArrayList, each spot has an index & we can quickly loop up what's in that spot.
+
+Method: rotate(int n)
+ArrayList -- O(n^2)
+LinkedList -- O(n)
+Explanation:
+For both, we iterated through n number of times & set the last n elements to the beginning.
+In ArrayList, we move the last element to the beginning & shift the rest down one spot n times
+whereas in LinkedList, we found the nth to the last element & moved everything after to the beginning.
+
+Method: merge(List<T> otherList)
+ArrayList -- O(n)
+LinkedList -- O(n)
+Explanation:
+Both have a runtime of O(n) because we iterate through all of the elements in this list and the other list only once
+& we're just repeatedly adding the lower values to the new list until we've gotten through all the elements. From there,
+we just added on whatever was left to the end !!
+
+
+Method: reverse()
+ArrayList -- O(n)
+LinkedList -- O(n)
+Explanation:
+Again, both of these also have a runtime of O(n). For the ArrayList, we're iterating through the first half and swapping
+with the last half -- technically O(n/2) but that's just O(n). As for the LinkedList, we've just repointed the next arrows
+to the previous Node until we reach the end.
+
+
+“I certify that the information contained in this README
+file is complete and accurate. I have both read and followed the course policies
+in the ‘Academic Integrity - Course Policy’ section of the course syllabus.”
+Paulina Zhang
