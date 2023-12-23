@@ -1,17 +1,5 @@
 Paulina Zhang; zhan7856
 
-Compiling & Running Program:
-    - literally just click the green buttons in ArrayListTest.java & LinkedListTest.java ?
-
-Assumptions:
-    - N/A
-
-Additional Feature:
-    - none lol why even ask
-
-Known Bugs / Defects
-    - N/A
-
 Analysis:
 
 Method: get(int index) --
